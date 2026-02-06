@@ -38,7 +38,7 @@ const Contactpage = () => {
         <span className="font-bold">
           WE ARE HERE TO HELP YOU
         </span>
-        <div className="text-4xl font-bold mb-4">DISCUSS YOUR <span className="text-blue-500">  WEBSITE</span> RELATED NEED</div>
+        <div className="text-3xl md:text-4xl font-bold mb-4">DISCUSS YOUR <span className="text-blue-500">  WEBSITE</span> RELATED NEED</div>
         <span className="my-10">Are you looking for top-quality web-solutions tailored to your needs? reach out to us today and let's build something amazing together!</span>
         
         {/* Email Section */}
@@ -82,7 +82,7 @@ const Contactpage = () => {
         <textarea required name="Write Your Requirement" id="" className="w-full h-48 px-4 py-2 rounded-lg border border-gray-700 bg-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Write Your Requirement" rows="5"></textarea>
         
         {/* Submit Button */}
-        <button type="submit" className="bg-blue-500 text-white h-10 rounded-4xl flex items-center justify-center px-4 hover:bg-blue-600 transition-colors duration-300 hover:text-white hover:shadow-lg cursor-pointer">
+        <button type="submit" className="bg-blue-500 text-white h-10 rounded-4xl flex items-center justify-center px-4 hover:bg-blue-600 transition-colors duration-300 hover:text-white border border-blue-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.8)] cursor-pointer relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/20 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
           <img src={arrow} alt="right arrow" className="w-5 h-5 mr-2" /> 
         Get A Solution
         </button>

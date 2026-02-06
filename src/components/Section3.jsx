@@ -16,7 +16,7 @@ return (
         <span className="text-blue-500 font-black uppercase tracking-[0.3em] text-[10px]">
           My Skills
         </span>
-        <h2 className="text-4xl md:text-5xl font-black text-white mt-4">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mt-4">
           Technologies I Work With
         </h2>
         <p className="text-slate-400 mt-6 max-w-2xl mx-auto">

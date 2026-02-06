@@ -107,7 +107,7 @@ const About = () => {
 
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-6 max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-black text-white mt-8 mb-6 tracking-tighter">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mt-8 mb-6 tracking-tighter">
             I'm <span className="text-blue-500">Sattar Kureshi</span>
           </h1>
 
@@ -156,13 +156,13 @@ const About = () => {
                 </div>
 
                 {/* GitHub Button */}
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-blue-950/20 border border-blue-900/20 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] group cursor-pointer">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-blue-950/20 border border-blue-900/20 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:-translate-y-1 shadow-[0_0_10px_rgba(59,130,246,0.2)] hover:shadow-[0_0_20px_rgba(59,130,246,0.6)] group cursor-pointer">
                   <Github size={20} className="text-blue-500 group-hover:text-white transition-colors" />
                   <span className="text-sm font-bold group-hover:text-white transition-colors">GitHub</span>
                 </a>
 
                 {/* LinkedIn Button */}
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-blue-950/20 border border-blue-900/20 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] group cursor-pointer">
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl bg-blue-950/20 border border-blue-900/20 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:-translate-y-1 shadow-[0_0_10px_rgba(59,130,246,0.2)] hover:shadow-[0_0_20px_rgba(59,130,246,0.6)] group cursor-pointer">
                   <Linkedin size={20} className="text-blue-500 group-hover:text-white transition-colors" />
                   <span className="text-sm font-bold group-hover:text-white transition-colors">LinkedIn</span>
                 </a>
@@ -204,7 +204,7 @@ const About = () => {
               <h3 className="text-4xl font-bold text-white">
                 Hackathon Log
               </h3>
-              <button onClick={() => handleAuth(() => setIsHackathonModalOpen(true))} className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white transition-all text-[10px] font-bold tracking-widest uppercase cursor-pointer">
+              <button onClick={() => handleAuth(() => setIsHackathonModalOpen(true))} className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-white/10 text-slate-300 hover:bg-slate-700 hover:text-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] text-[10px] font-bold tracking-widest uppercase cursor-pointer relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/10 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                 <Sparkles size={14} className="text-blue-500" />
                 Add Journey
               </button>
@@ -234,7 +234,7 @@ const About = () => {
               <h3 className="text-4xl font-bold text-white">
                 Certifications
               </h3>
-              <button onClick={() => handleAuth(() => setIsModalOpen(true))} className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white transition-all text-[10px] font-bold tracking-widest uppercase cursor-pointer">
+              <button onClick={() => handleAuth(() => setIsModalOpen(true))} className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-white/10 text-slate-300 hover:bg-slate-700 hover:text-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] text-[10px] font-bold tracking-widest uppercase cursor-pointer relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/10 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                 <Sparkles size={14} className="text-blue-500" />
                 Add Certificate
               </button>
@@ -323,7 +323,7 @@ const About = () => {
                       />
                   </div>
 
-                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1">
+                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 border border-blue-400/50 shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] hover:-translate-y-1 relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/20 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                       Save Certificate
                   </button>
               </form>
@@ -395,7 +395,7 @@ const About = () => {
                       ></textarea>
                   </div>
 
-                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1">
+                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 border border-blue-400/50 shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] hover:-translate-y-1 relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/20 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                       Save Journey
                   </button>
               </form>

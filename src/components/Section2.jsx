@@ -2,8 +2,8 @@ import React from 'react'
 
 const section2 = () => {
   return (
-    <div className='h-screen w-full'> 
-     <section className="relative py-28 px-6 overflow-hidden">
+    <div className='min-h-screen w-full flex items-center'> 
+     <section className="relative py-28 px-6 overflow-hidden w-full">
 
     <div className="relative max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       
@@ -13,7 +13,7 @@ const section2 = () => {
           ABOUT ME
         </span>
 
-        <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight mb-6">
           Building modern web experiences <br />
           <span className="text-blue-500">with clean code & creativity</span>
         </h2>

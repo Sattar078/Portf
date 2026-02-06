@@ -68,7 +68,7 @@ const MySkills = () => {
             Skills
           </span>
 
-          <h2 className="text-5xl md:text-6xl font-black text-white tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight">
             MY <span className="text-blue-500">EXPERTISE</span>
           </h2>
 
@@ -133,7 +133,7 @@ const MySkills = () => {
 
         {/* Add Future Skill Button */}
         <div className="mt-16 flex justify-center">
-          <button onClick={handleAuth} className="flex items-center gap-2 px-6 py-3 rounded-full bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white transition-all text-xs font-bold tracking-widest uppercase cursor-pointer">
+          <button onClick={handleAuth} className="flex items-center gap-2 px-6 py-3 rounded-full bg-slate-800 border border-white/10 text-slate-300 hover:bg-slate-700 hover:text-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] text-xs font-bold tracking-widest uppercase cursor-pointer relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/10 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
             <Sparkles size={16} className="text-blue-500" />
             Add New Skill
           </button>
@@ -199,7 +199,7 @@ const MySkills = () => {
                       />
                   </div>
 
-                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1">
+                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mt-4 border border-blue-400/50 shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] hover:-translate-y-1 relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/20 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                       Save Skill
                   </button>
               </form>

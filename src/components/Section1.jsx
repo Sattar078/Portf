@@ -24,7 +24,7 @@ const Section1 = () => {
             </div>
 
             {/* Heading */}
-            <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight">
                 Hello, I'm <br />
                 <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-blue-500 to-indigo-500">
                     Sattar Kureshi
@@ -38,10 +38,10 @@ const Section1 = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
-                <a href="/contact" className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1">
+                <a href="/contact" className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all border border-blue-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] hover:-translate-y-1 relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/20 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                     Contact Me
                 </a>
-                <a href="/MyWork" className="px-8 py-4 rounded-full bg-transparent border border-slate-700 hover:border-blue-500 text-slate-300 hover:text-white font-bold transition-all hover:bg-blue-500/10 hover:-translate-y-1">
+                <a href="/MyWork" className="px-8 py-4 rounded-full bg-transparent border border-white/20 hover:border-blue-500 text-slate-300 hover:text-white font-bold transition-all shadow-[0_0_10px_rgba(255,255,255,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:bg-blue-500/10 hover:-translate-y-1 relative overflow-hidden before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-transparent before:via-white/10 before:to-transparent before:transition-all before:duration-500 hover:before:left-full">
                     View Work
                 </a>
             </div>
@@ -55,17 +55,18 @@ const Section1 = () => {
             {/* Profile Image Container */}
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 {/* Gradient Ring */}
-                <div className="absolute inset-0 rounded-full bg-linear-to-tr from-blue-500 via-indigo-500 to-transparent p-1 animate-spin" style={{animationDuration: '10s'}}></div>
+                <div className="absolute inset-0 rounded-full bg-linear-to-tr from-blue-500 via-indigo-500 to-transparent p-1 animate-spin [mask:linear-gradient(white,white)_content-box,linear-gradient(white,white)] [-webkit-mask-composite:destination-out] mask-exclude" style={{animationDuration: '10s'}}></div>
                 
-                {/* Static Border & Image */}
-                <div className="absolute inset-1 rounded-full bg-gray-950 p-1">
-                    <div className="w-full h-full rounded-full overflow-hidden relative">
-                        <img 
-                            src="public/bg.jpeg" 
+                {/* Static Background */}
+                <div className="absolute inset-1 rounded-full bg-gray-900"></div>
+
+                {/* Image */}
+                <div className="absolute inset-0 flex items-end justify-center">
+                     <img 
+                            src="profileimg.png" 
                             alt="Sattar Kureshi" 
-                            className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" 
+                            className="w-[90%] h-[120%] object-contain object-bottom hover:scale-110 transition-transform duration-500 rounded-b-full" 
                         />
-                    </div>
                 </div>
 
                 {/* Floating Skill Badges */}
