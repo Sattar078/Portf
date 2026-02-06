@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from "react";
 import {
-  Cpu,
   MapPin,
   Mail,
   Calendar,
   Terminal,
-  ChevronRight,
-  Gamepad,
-  Music,
-  Camera,
   Award,
   Sparkles,
   X,

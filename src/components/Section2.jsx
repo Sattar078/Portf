@@ -1,6 +1,6 @@
 import React from 'react'
 
-const section2 = () => {
+const Section2 = () => {
   return (
     <div className='min-h-screen w-full flex items-center'> 
      <section className="relative py-28 px-6 overflow-hidden w-full">
@@ -69,4 +69,4 @@ const section2 = () => {
   )
 }
 
-export default section2
+export default Section2

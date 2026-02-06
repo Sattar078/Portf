@@ -1,6 +1,6 @@
 import React from 'react'
 
-const section4 = () => {
+const Section4 = () => {
   // Icon URLs
   const arrow = "https://cdn-icons-png.flaticon.com/512/271/271228.png";
   const EMail = "https://cdn-icons-png.flaticon.com/128/9068/9068642.png";
@@ -76,4 +76,4 @@ const section4 = () => {
   )
 }
 
-export default section4
+export default Section4

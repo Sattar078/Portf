@@ -63,7 +63,7 @@ const Section1 = () => {
                 {/* Image */}
                 <div className="absolute inset-0 flex items-end justify-center">
                      <img 
-                            src="profileimg.png" 
+                            src="/profileimg.png" 
                             alt="Sattar Kureshi" 
                             className="w-[90%] h-[120%] object-contain object-bottom hover:scale-110 transition-transform duration-500 rounded-b-full" 
                         />
